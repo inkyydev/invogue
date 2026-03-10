@@ -8,6 +8,10 @@ img {
   max-width: 100%;
 }
 
+.fl-page {
+  overflow: hidden;
+}
+
 h1,
 h2,
 h3,
@@ -51,6 +55,29 @@ p {
 a {
   transition: all 0.2s ease;
   text-decoration: none;
+}
+
+.buttons-coustom-wrapper {
+  display: flex;
+  gap: 15px;
+}
+
+.buttons-coustom-wrapper a {
+  background-color: #fff;
+  padding: 8px 22px 10px 11px;
+  border-radius: 144px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 9px;
+  color: #24343d;
+  font-weight: 500;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.05);
+}
+
+.buttons-coustom-wrapper a:hover {
+  background: #24343d;
+  color: #fff;
 }
 
 @media (max-width: 1024px) {

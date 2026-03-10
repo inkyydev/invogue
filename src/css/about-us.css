@@ -1,0 +1,99 @@
+.about-hero-info {
+  display: flex;
+  flex-direction: column;
+  background-color: #f9f9f9;
+  background-image: url(../images/hero-background.svg);
+  padding: 71px 20px 94px 64px;
+  background-size: auto auto;
+  background-repeat: no-repeat;
+  background-position: 70% 8px;
+}
+
+.about-hero-info h1 {
+  max-width: 649px;
+  margin-bottom: 9px;
+}
+
+.about-hero-info p {
+  max-width: 486px;
+  margin: 0;
+  margin-bottom: 36px;
+}
+
+#about-promise {
+  background-color: #365365;
+}
+
+.our-promise-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 120px 20px 112px;
+}
+
+.promise-verification {
+  display: flex;
+  gap: 12px;
+  margin-top: 28px;
+}
+
+.promise-verification p {
+  background-color: #f9f9f9;
+  padding: 14px 20px;
+  border-radius: 144px;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.our-promise-wrapper > p {
+  max-width: 486px;
+  text-align: center;
+  color: #fff;
+  margin-top: 9px;
+}
+
+.our-promise-wrapper h2 {
+  color: #fff;
+}
+
+@media (max-width: 1024px) {
+}
+
+@media (max-width: 767px) {
+  h1 {
+    font-size: 38px !important;
+  }
+
+  .about-hero-info h1 {
+    max-width: 344px;
+    font-weight: 500;
+    margin-bottom: 12px;
+  }
+
+  .about-hero-info p {
+    margin-bottom: 28px;
+    max-width: 308px;
+  }
+
+  .about-hero-info {
+    padding: 49px 20px 42px;
+  }
+
+  .buttons-coustom-wrapper {
+    flex-direction: column;
+  }
+
+  .buttons-coustom-wrapper {
+    width: fit-content;
+    gap: 12px !important;
+  }
+
+  .buttons-coustom-wrapper a {
+    justify-content: start;
+  }
+
+  .about-hero-info {
+    background-image: url(../images/hero-background-mobile.png);
+  }
+}
