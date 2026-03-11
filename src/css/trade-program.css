@@ -67,22 +67,6 @@
   max-width: 388px;
 }
 
-.left-trade a {
-  background-color: #fefefe;
-  border: 1px solid #e6e6e6;
-  border-radius: 144px;
-  padding: 9px 33px 9px 10px;
-  color: #24343d;
-  display: inline-flex;
-  align-items: center;
-  gap: 10px;
-}
-
-.left-trade a:hover {
-  background-color: #24343d;
-  color: #fff;
-}
-
 .right-trade p {
   border-bottom: 1px solid #e6e6e6;
   padding-bottom: 12px;
@@ -96,15 +80,158 @@
   max-width: 1088px;
 }
 
+.join-program-card {
+  padding: 28px 49px 39px !important;
+  text-align: center;
+}
+
+.join-program-card h4 {
+  margin: 31px 0 16px;
+}
+
+.join-program-card p {
+  max-width: 318px;
+}
+
+#invoque-solutions {
+  padding: 54px 0;
+}
+
+.approval-card {
+  display: flex;
+  border-bottom: 1px solid #253d4c;
+  padding-bottom: 24px;
+  margin-bottom: 24px;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.approval-card h4 {
+  margin-bottom: 16px;
+}
+
+.aprroval-p-fourth {
+  max-width: 268px;
+}
+
+.aprroval-p-third {
+  max-width: 362px;
+}
+
+.aprroval-p-second {
+  max-width: 227px;
+}
+
+.aprroval-p-first {
+  max-width: 464px;
+}
+.approval-button {
+  flex-basis: 125px;
+  max-width: 125px;
+}
+.approval-button p {
+  background-color: #c8baad;
+  border-radius: 144px;
+  padding: 14px 0;
+  color: #fff;
+  text-align: center;
+}
+
+#approval-process {
+  background-color: #415c6d;
+  padding-top: 102px;
+}
+
+.approval-card h4,
+.approval-card p {
+  color: #fff;
+}
+
+.approval-left h2 {
+  margin-bottom: 41px;
+  color: #fff;
+}
+
+.approval-left img {
+  margin-top: auto;
+  display: flex;
+}
+.aprroval-card-text {
+  flex: 1;
+}
+
+.approval-right .col-lg-12:last-child .approval-card {
+  border-bottom: none;
+}
+
+#real-projects {
+  background-image: url(../images/real-project-bc.png);
+  background-size: cover;
+  padding: 137px 0 92px;
+}
+
+.real-projects-wrapper {
+  text-align: center;
+}
+
+.real-projects-wrapper h2 {
+  max-width: 668px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 12px;
+}
+
+.real-projects-wrapper p {
+  max-width: 577px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 36px;
+}
+
 @media (max-width: 1024px) {
   .left-trade a {
     margin-bottom: 53px;
   }
+
+  .join-program-card {
+    padding: 28px 40px 39px !important;
+  }
+
+  .solutions-card-wrapper .row {
+    row-gap: 20px;
+  }
+
+  .approval-left img {
+    width: 100%;
+  }
+
+  .aprroval-warpper .row {
+    row-gap: 50px;
+  }
+
+  .approval-left h2 {
+    text-align: center;
+  }
 }
 
 @media (max-width: 767px) {
+  .approval-card {
+    align-items: start;
+  }
+  .aprroval-card-text {
+    flex: 1;
+  }
+  .approval-button {
+    flex-basis: 97px;
+    max-width: 97px;
+  }
+  .approval-button p {
+    padding: 10px 0;
+  }
+
   .verify-bc {
-    margin-top: -348px;
+    margin-top: -665px;
   }
 
   .verify-bc img {
@@ -144,5 +271,107 @@
 
   .left-trade a {
     margin-bottom: 0;
+  }
+
+  .join-program-card {
+    padding: 20px 20px 18px 20px !important;
+    text-align: left;
+  }
+
+  .solutions-card-wrapper .row {
+    row-gap: 12px;
+  }
+
+  .solution-p-bottom {
+    max-width: 266px !important;
+  }
+
+  .soluiton-p-small {
+    max-width: 234px !important;
+  }
+
+  .join-program-card .join-program-p p {
+    max-width: 234px !important;
+  }
+
+  .join-program-card h4 {
+    margin: 22px 0 12px;
+  }
+
+  #invoque-solutions {
+    padding: 36px 0 56px;
+  }
+
+  #invoque-solutions h2 {
+    text-align: left;
+    margin-bottom: 32px;
+  }
+  .solution-p-small,
+  .program-first-p {
+    max-width: 234px !important;
+  }
+
+  #approval-process {
+    padding: 61px 0 62px;
+  }
+
+  .aprroval-warpper .row {
+    row-gap: 52px;
+  }
+
+  .approval-card a {
+    padding: 10px 30px;
+    font-size: 12px;
+  }
+
+  .aprroval-p-first {
+    max-width: 268px;
+  }
+
+  .approval-card h4 {
+    margin-bottom: 34px;
+  }
+
+  .aprroval-p-second {
+    max-width: 194px;
+  }
+
+  .aprroval-p-third {
+    max-width: 237px;
+  }
+
+  .aprroval-p-fourth {
+    max-width: 242px;
+  }
+
+  .aprroval-p-first {
+    margin-right: -50px;
+  }
+
+  .approval-button p {
+    margin-top: -7px;
+  }
+
+  #real-projects {
+    padding: 111px 0;
+  }
+
+  .real-projects-wrapper h2 {
+    margin-bottom: 12px;
+  }
+
+  .real-projects-wrapper p {
+    margin-bottom: 32px;
+  }
+
+  .trade-wrapper {
+    text-align: center;
+    padding: 45px 0 146px;
+  }
+
+  .approval-right .col-lg-12:last-child .approval-card {
+    border-bottom: none;
+    margin-bottom: 0;
+    padding-bottom: 0;
   }
 }

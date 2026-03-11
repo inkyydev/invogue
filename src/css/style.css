@@ -61,6 +61,7 @@ a {
   transition: all 0.2s ease;
   text-decoration: none;
   color: #2b292a;
+  display: inline-block;
 }
 a:hover {
   color: rgba(43, 41, 42, 0.7);
@@ -71,7 +72,7 @@ a:hover {
   gap: 15px;
 }
 
-.buttons-coustom-wrapper a {
+.btn-main {
   background-color: #fff;
   padding: 8px 22px 10px 11px;
   border-radius: 144px;
@@ -85,7 +86,7 @@ a:hover {
   border: 1px solid #e6e6e6;
 }
 
-.buttons-coustom-wrapper a:hover {
+.btn-main:hover {
   background: #24343d;
   color: #fff;
   border-color: #24343d;
@@ -235,6 +236,52 @@ a:hover {
   color: #fff;
   top: -7px;
   right: -7px;
+}
+
+.solutions-card {
+  border: 1px solid #e6e6e6;
+  background-color: #fff;
+  border-radius: 20px;
+  padding: 29px 38px 44px 24px;
+  width: 100%;
+}
+
+#invoque-solutions {
+  background-color: #f9f9f9;
+  padding: 54px 89px;
+}
+
+#invoque-solutions h2 {
+  margin-bottom: 54px;
+  text-align: center;
+  max-width: 506px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.solutions-card h4 {
+  margin-bottom: 16px;
+  margin-top: 32px;
+}
+
+.solutions-card p {
+  max-width: 354px;
+}
+
+.solutions-card-wrapper .row {
+  row-gap: 32px;
+}
+
+.solutions-card-wrapper .col-lg-4 {
+  display: flex;
+}
+
+.solution-p-bottom {
+  max-width: 318px !important;
+}
+
+.soluiton-p-small {
+  max-width: 286px !important;
 }
 @media (max-width: 1024px) {
   h1 {
