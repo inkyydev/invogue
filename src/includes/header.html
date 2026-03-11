@@ -1,1 +1,92 @@
-<h1>header</h1>
+<div class="header-wrapper">
+  <div class="header-info-bar">
+    <div class="header-info-bar__phone">
+      <a href="tel:1300 221 495"> Call 1300 221 495 </a>
+    </div>
+    <div class="header-info-bar__currency">
+      <div class="header-info-bar__currency--switch">
+        <div class="currency-switcher">
+          <button class="currency-selected">
+            <svg class="arrow" width="14" height="14" viewBox="0 0 24 24">
+              <path
+                d="M7 10l5 5 5-5"
+                stroke="currentColor"
+                stroke-width="2"
+                fill="none"
+              />
+            </svg>
+            <span>Australia (AUD $)</span>
+          </button>
+
+          <div class="currency-dropdown">
+            <div class="currency-option">United States (USD $)</div>
+            <div class="currency-option">Australia (AUD $)</div>
+            <div class="currency-option">United Kingdom (GBP £)</div>
+            <div class="currency-option">Europe (EUR €)</div>
+          </div>
+        </div>
+      </div>
+      <div class="header-info-bar__currency--afterpay">
+        <img src="src/images/afterpay.svg" alt="afterpay" />
+      </div>
+    </div>
+  </div>
+  <div class="header-nav">
+    <div class="container-big">
+      <div class="header-main">
+        <div class="header-main__logo">
+          <a href="/">
+            <img src="src/images/logo.svg" alt="logo" />
+          </a>
+        </div>
+        <div class="header-main__nav">
+          <div class="header-main__nav--items">
+            <a href="#" class="active">HOME</a>
+            <a href="#">SHOP ALL</a>
+            <a href="#">SHOP BY COLOUR</a>
+            <a href="#">MIRRORS</a>
+            <a href="#">TAPWARE</a>
+            <a href="#">TRADE</a>
+            <a href="#">CONTACT</a>
+            <a href="#">DESIGN HELP</a>
+          </div>
+        </div>
+        <div class="header-main__icons">
+          <a href="#">
+            <img src="src/images/account-icon.svg" alt="acc" />
+          </a>
+          <a href="#" class="search-icon">
+            <img src="src/images/search-icon.svg" alt="search" />
+          </a>
+          <a href="#" class="shop-icon">
+            <img src="src/images/shop-icon.svg" alt="shop" />
+            <span>2</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+  const switcher = document.querySelector(".currency-switcher");
+  const selected = document.querySelector(".currency-selected");
+  const options = document.querySelectorAll(".currency-option");
+
+  selected.addEventListener("click", () => {
+    switcher.classList.toggle("active");
+  });
+
+  options.forEach((option) => {
+    option.addEventListener("click", () => {
+      selected.querySelector("span").textContent = option.textContent;
+      switcher.classList.remove("active");
+    });
+  });
+
+  document.addEventListener("click", (e) => {
+    if (!switcher.contains(e.target)) {
+      switcher.classList.remove("active");
+    }
+  });
+</script>
