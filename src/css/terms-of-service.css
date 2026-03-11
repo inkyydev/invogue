@@ -1,0 +1,176 @@
+.terms-of-service-hero {
+  padding: 37px 0 46px;
+  text-align: center;
+}
+#hero-baner {
+  background-color: #e6e0d9;
+}
+
+.terms-of-service-hero h1 {
+  margin-bottom: 6px;
+}
+
+.terms-wrapper {
+  max-width: 864px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.terms-wrapper h4 {
+  margin-top: 44px;
+  margin-bottom: 12px;
+}
+
+#terms-of-service-text {
+  padding: 44px 0 64px;
+}
+
+.overview-heading {
+  margin-top: 0 !important;
+}
+
+.over-view-p {
+  display: flex;
+  flex-direction: column;
+  gap: 17px;
+}
+
+#terms-of-service-text {
+  background-color: #f5f5f5;
+}
+
+#get-in-touch {
+  background-color: #f5f5f5;
+  padding-bottom: 91px;
+}
+
+#get-in-touch .container {
+  max-width: 992px;
+}
+
+.touch-wrapper {
+  background-color: #ffffff;
+  padding: 30px 50px 30px 44px;
+  border-radius: 25px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.touch-left {
+  display: flex;
+  align-items: center;
+}
+
+.touch-text {
+  margin-left: 35px;
+}
+
+.touch-text p {
+  margin-top: 10px;
+}
+
+.touch-right a {
+  background-color: #e6e0d9;
+  border: 1px solid #e6e0d9;
+  padding: 12px 86px;
+  color: #26333a;
+  border-radius: 144px;
+  font-weight: 500;
+  display: inline-block;
+}
+
+.touch-right a:hover {
+  background: transparent;
+}
+
+.terms-wrapper br {
+  display: none;
+}
+
+@media (max-width: 1024px) {
+  .touch-wrapper {
+    flex-direction: column;
+    gap: 45px;
+  }
+
+  .touch-left {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .touch-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 16px;
+  }
+
+  .touch-text p {
+    text-align: center;
+  }
+}
+
+@media (max-width: 767px) {
+  .touch-wrapper {
+    flex-direction: column;
+    gap: 45px;
+  }
+
+  .touch-left {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .touch-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 16px;
+    margin-left: 0;
+  }
+
+  .touch-text p {
+    text-align: center;
+  }
+
+  .touch-text p {
+    font-size: 12px;
+    max-width: 206px;
+  }
+
+  .touch-wrapper {
+    padding: 30px 20px;
+  }
+
+  #terms-of-service-text {
+    padding: 29px 0 53px;
+  }
+
+  .terms-of-service-hero h1 {
+    margin-bottom: 12px;
+  }
+
+  .terms-of-service-hero {
+    padding: 29px 0;
+  }
+
+  .terms-wrapper h4 {
+    margin-top: 24px;
+    margin-bottom: 15px;
+  }
+
+  #get-in-touch {
+    padding-bottom: 54px;
+  }
+
+  .touch-br {
+    display: none;
+  }
+
+  .terms-wrapper br {
+    display: block;
+  }
+}
