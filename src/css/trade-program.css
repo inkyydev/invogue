@@ -1,0 +1,148 @@
+#trade-hero {
+  background-color: #f9f9f9;
+}
+
+.trade-wrapper {
+  text-align: center;
+  padding: 45px 0 168px;
+}
+
+.trade-wrapper p {
+  max-width: 352px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+}
+
+.verify-bc img {
+  width: 100%;
+}
+
+.verify-form {
+  padding: 31px 29px 37px;
+  /* display: flex;
+  flex-direction: column; */
+  border-radius: 25px;
+  max-width: 752px;
+  position: relative;
+  z-index: 2;
+  background: #fff;
+  margin: 0 auto;
+  top: -115px;
+}
+
+.verify-form img {
+  margin: 33px 0;
+}
+
+.verify-form a {
+  padding: 12px 20px;
+  background-color: #e6e0d9;
+  color: #26333a;
+  border-radius: 144px;
+  border: 1px solid #e6e0d9;
+  display: block;
+  text-align: center;
+}
+
+.verify-form a:hover {
+  background-color: transparent;
+}
+
+.verify-form p {
+  max-width: 407px;
+}
+
+.verify-bc {
+  margin-top: -529px;
+}
+
+#our-trade {
+  padding: 100px 0;
+  background-color: #fefefe;
+}
+
+.left-trade p {
+  margin: 12px 0 36px;
+  max-width: 388px;
+}
+
+.left-trade a {
+  background-color: #fefefe;
+  border: 1px solid #e6e6e6;
+  border-radius: 144px;
+  padding: 9px 33px 9px 10px;
+  color: #24343d;
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.left-trade a:hover {
+  background-color: #24343d;
+  color: #fff;
+}
+
+.right-trade p {
+  border-bottom: 1px solid #e6e6e6;
+  padding-bottom: 12px;
+  margin-bottom: 19px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+#our-trade .container {
+  max-width: 1088px;
+}
+
+@media (max-width: 1024px) {
+  .left-trade a {
+    margin-bottom: 53px;
+  }
+}
+
+@media (max-width: 767px) {
+  .verify-bc {
+    margin-top: -348px;
+  }
+
+  .verify-bc img {
+    height: 606px;
+    object-fit: cover;
+  }
+
+  .verify-form {
+    margin: 0 20px;
+  }
+
+  #our-trade {
+    padding: 43px 0;
+  }
+
+  .left-trade p {
+    margin: 12px 0 22px;
+    max-width: 275px;
+  }
+
+  .apply-trade-wrapper .row {
+    row-gap: 53px;
+  }
+
+  .right-trade p {
+    padding-bottom: 18px;
+    margin-bottom: 18px;
+  }
+
+  .left-trade a {
+    padding: 7px 19px 7px 9px;
+  }
+
+  .verify-form {
+    min-height: 720px;
+  }
+
+  .left-trade a {
+    margin-bottom: 0;
+  }
+}
