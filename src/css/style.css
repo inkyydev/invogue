@@ -283,6 +283,12 @@ a:hover {
 .soluiton-p-small {
   max-width: 286px !important;
 }
+
+.accordion-body p {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
 @media (max-width: 1024px) {
   h1 {
     font-size: 42px;
@@ -302,6 +308,10 @@ a:hover {
   .container,
   .container-big {
     padding: 0 40px;
+  }
+
+  .faq-wrapper .row .col-lg-4 h2 {
+    margin-bottom: 15px;
   }
 }
 

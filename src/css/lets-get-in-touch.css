@@ -30,7 +30,210 @@
   justify-content: center;
 }
 
+.get-in-touch-wrapper h2 {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#get-in-touch-hero {
+  padding: 24px 0 43px;
+}
+
+.get-in-touch-wrapper > p {
+  text-align: center;
+  max-width: 436px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 12px;
+  margin-bottom: 44px;
+}
+
+.get-in-touch-wrapper {
+}
+
+.contact-info > p {
+  max-width: 353px;
+  text-align: left;
+  margin-bottom: 25px;
+}
+
+.contact-info-card {
+  display: flex;
+  align-items: center;
+  gap: 13px;
+  background-color: #fff;
+  padding: 16px;
+  border-radius: 10px;
+  transition: all 0.2s ease;
+}
+
+.contact-info-card__icon {
+  display: flex;
+  flex-basis: 40px;
+  max-width: 40px;
+}
+.contact-info-card__info {
+  flex: 1;
+}
+.contact-info-card__info p:last-of-type {
+  font-size: 14px;
+}
+.phone-info-p {
+  margin-bottom: 2px;
+  font-size: 10px;
+  font-weight: 500;
+  color: #26333a;
+}
+
+#get-in-touch-hero {
+  background-color: #f9f9f9;
+}
+
+.contact-solutions-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  max-width: 336px;
+}
+
+.mail-wrapper {
+  padding: 18px 54px 15px 16px;
+}
+
+.social-media-wrapper {
+  margin-top: 25px;
+  display: flex;
+  gap: 15px;
+}
+
+.chat-bot {
+  margin-left: 23px;
+}
+
+.sign-in-form {
+  background-color: #fff;
+  padding: 40px 40px;
+  border-radius: 25px;
+}
+
+.sign-info {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  border-bottom: 1px solid #e6e6e6;
+  padding-bottom: 24px;
+}
+
+.sign-info p {
+  max-width: 239px;
+  font-size: 14px;
+}
+
+.tocuh-form-wrapper {
+  max-width: 864px;
+
+  margin: 0 auto;
+}
+
+.tocuh-form-wrapper .row {
+  align-items: center;
+}
+
+.contact-form-card {
+  border: 1px solid #e6e6e6;
+  padding: 42px 136px 46px 32px;
+  border-radius: 25px;
+  margin-right: -172px;
+}
+
+.contact-info-card:hover {
+  background-color: #415c6d;
+  color: #fff;
+}
+.contact-info-card * {
+  transition: all 0.2s ease;
+}
+.contact-info-card:hover * {
+  color: #fff;
+}
+
+#faq {
+  padding: 66px 0 96px;
+}
+
+.faq-wrapper .row .col-lg-4 h2 {
+  max-width: 352px;
+}
+
+.faq-bottom,
+.faq-top h4 {
+  margin-bottom: 24px;
+}
+
+.faq-top {
+  margin-bottom: 36px;
+}
+
+.accordion-item {
+  margin-bottom: 12px;
+  border: 1px solid #dee2e6 !important;
+  border-radius: 10px !important;
+  overflow: hidden;
+}
+
+.accordion-item:not(:first-of-type) {
+  border-top: 1px solid #dee2e6 !important;
+}
+
+.accordion-button {
+  border-radius: 10px !important;
+}
+
+.accordion-button:not(.collapsed) {
+  background-color: transparent;
+  color: #000;
+  box-shadow: none;
+}
+
+.accordion-button:focus {
+  box-shadow: none;
+}
+
+.accordion-button:not(.collapsed)::after {
+  background-image: url(../images/faq-minus.svg);
+  transform: none !important;
+}
+
+.accordion-button::after {
+  background-image: url(../images/faq-plus.svg);
+  transition: all 0.2s ease;
+}
+
+.faq-bottom {
+  margin-top: 36px;
+  margin-bottom: 24px;
+}
+
+.contact-info-card__info p:last-of-type {
+  margin-bottom: 0px;
+}
+
 @media (max-width: 1024px) {
+  .contact-info {
+    align-items: center;
+    text-align: left;
+  }
+
+  .contact-form-card {
+    margin-bottom: -29px;
+    padding: 40px 20px;
+    margin-right: -120px;
+    padding-right: 130px;
+  }
+  .sign-in-form {
+    padding: 40px 20px;
+  }
 }
 
 @media (max-width: 767px) {
@@ -54,5 +257,75 @@
     justify-content: center;
     margin-left: auto;
     margin-right: auto;
+  }
+
+  .contact-info > p {
+    font-size: 12px;
+    margin-bottom: 23px;
+  }
+
+  .contact-form-card {
+    padding: 23px 20px 80px 20px;
+    margin-bottom: -51px;
+    margin-right: 12px;
+    margin-left: 12px;
+  }
+
+  .phone-info-p {
+    font-size: 10px;
+  }
+
+  .contact-info-card {
+    padding: 16px 17px;
+  }
+
+  .social-media-wrapper {
+    margin-top: 22px;
+  }
+
+  .sign-info p {
+    font-size: 12px;
+    max-width: 194px;
+  }
+
+  .sign-in-form {
+    padding: 30px 20px;
+  }
+
+  .sign-info {
+    padding-bottom: 19px;
+  }
+
+  .sign-in-form-pic {
+    /* padding-top:33px; */
+  }
+
+  #get-in-touch-hero {
+    padding: 49px 0 22px;
+  }
+
+  .get-in-touch-wrapper > p {
+    margin-bottom: 29px;
+  }
+
+  .sign-in-form {
+    padding: 26px 20px 26px 20px;
+  }
+
+  #faq {
+    padding: 35px 0 51px;
+  }
+
+  .faq-wrapper .row .col-lg-4 h2 {
+    margin-bottom: 37px;
+  }
+
+  .faq-bottom,
+  .faq-top h4 {
+    margin-bottom: 30px;
+  }
+
+  .accordion-item {
+    margin-bottom: 10px;
   }
 }
