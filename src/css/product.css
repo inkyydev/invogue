@@ -1,0 +1,508 @@
+#customers-homes {
+  padding: 60px 0;
+}
+
+.futures-card {
+  background-color: #fffeff;
+  padding: 18px 20px 25px 20px;
+  border: 1px solid #e6e6e6;
+  border-radius: 20px;
+  height: 100%;
+}
+
+#features-favorite {
+  background-color: #f9f9f9;
+  padding: 62px 0 85px;
+}
+
+.futures-card h4 {
+  margin: 23px 0 12px;
+  font-size: 22px;
+  font-size: 22px;
+}
+
+#features-favorite h2 {
+  text-align: center;
+  max-width: 790px;
+  margin: 0 auto;
+  margin-bottom: 54px;
+}
+
+.features-favorite-wrapper .row {
+  row-gap: 22px;
+}
+
+.payment-card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+#amalfi-samrt-mirror {
+  padding: 55px 0;
+  background-color: #fff;
+}
+
+#amalfi-samrt-mirror h2 {
+  max-width: 989px;
+  margin-bottom: 48px;
+}
+
+.amalfi-smart-wrapper p {
+  max-width: 435px;
+}
+
+.smart-one-p {
+  margin-bottom: 15px;
+}
+
+.payment-section-smart {
+  margin-top: 109px;
+}
+
+.smart-wrapper-right {
+  display: flex;
+  justify-content: center;
+  gap: 33px;
+}
+
+.amalfi-smart-wrapper .row {
+  row-gap: 67px;
+}
+
+.bth-mobile {
+  display: none;
+}
+
+#australian-homes {
+  background-color: #f9f9f9;
+  padding: 70px 0 69px;
+}
+
+.australian-text h2 {
+  margin-bottom: 13px;
+  max-width: 514px;
+}
+
+.australian-text p {
+  max-width: 524px;
+}
+
+.australian-options {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  justify-content: flex-end;
+}
+
+.australian-options p {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.australian-homes-slider {
+  margin-top: 45px;
+}
+
+.australian-slider-button {
+  display: none;
+}
+
+.premium-pic-card p {
+  margin-top: 32px;
+}
+
+#premium-materials h2 {
+  max-width: 790px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 26px;
+}
+
+.premium-p-wrapper {
+  margin-bottom: 32px;
+  text-align: center;
+  max-width: 652px;
+  margin-right: auto;
+  margin-left: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.premium-pic-card p {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.premium-pic-wrapper .row {
+  row-gap: 27px;
+}
+
+#premium-materials {
+  padding: 48px 0 75px;
+}
+
+.premium-pic-card img {
+  width: 100%;
+}
+
+.payment-section {
+  display: none;
+}
+
+#amalfi-standard {
+  background-color: #f9f9f9;
+  padding: 62px 0;
+}
+
+.amalfi-standard-payment {
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}
+
+.amalfi-standard-payment h2 {
+  max-width: 340px;
+}
+
+/* Omotač tabele za zaobljene ivice i senku */
+.amalfi-comparison-table {
+  background-color: #ffffff;
+  border-radius: 16px;
+  overflow: hidden; /* Jako bitno da bi se header isekao po zaobljenim ivicama */
+  margin-top: 20px;
+}
+
+/* Osnovna podešavanja tabele */
+.amalfi-comparison-table table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: left;
+}
+
+/* Zaglavlje tabele (Boja koju si tražio) */
+.amalfi-comparison-table thead th {
+  background-color: #c8baad;
+  color: #2b2b2b;
+  font-weight: 600;
+  padding: 24px 20px;
+  font-size: 16px;
+}
+
+/* Suptilna vertikalna linija u zaglavlju (kao na slici) */
+.amalfi-comparison-table thead th:not(:last-child) {
+  border-right: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+/* Ćelije unutar tela tabele */
+.amalfi-comparison-table tbody td {
+  padding: 20px;
+  color: #464647;
+  border-bottom: 1px solid #eaeaea; /* Horizontalne linije između redova */
+  font-size: 1rem;
+}
+
+/* Podebljan tekst u prvoj koloni (Feature) */
+.amalfi-comparison-table tbody td:first-child {
+  font-weight: 600;
+  color: #2b2b2b;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+/* Uklanjanje donje linije na poslednjem redu da bi izgledalo čistije */
+.amalfi-comparison-table tbody tr:last-child td {
+  border-bottom: none;
+}
+
+.amalfi-comparison-table tbody td:not(:last-child) {
+  border-right: 1px solid #eaeaea;
+}
+
+.amalfi-comparison-table thead th:not(:last-child) {
+  border-right: 1px solid #a7917c;
+}
+
+.table-standard-pic img {
+  width: 100%;
+}
+
+#amalfi-support {
+  padding: 47px 0;
+}
+
+.support-text h2 {
+  margin-bottom: 13px;
+}
+
+.support-text p {
+  max-width: 388px;
+}
+
+.support-info > p {
+  margin-bottom: 24px;
+}
+
+.order-support {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+.order-info h5 {
+  font-size: 18px;
+  color: #26323a;
+  margin-bottom: 6px;
+  font-weight: 500;
+}
+
+.order-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+}
+
+.order-pic {
+  display: flex;
+  justify-content: start;
+}
+
+.order-support {
+  margin-bottom: 22px;
+}
+
+.support-bottom-p {
+  background-color: #c8baad;
+  padding: 15px 42px 15px 15px;
+  display: inline-flex;
+  gap: 20px;
+  align-items: start;
+  border-radius: 10px;
+}
+
+.support-bottom-p p {
+  max-width: 388px;
+}
+
+@media (max-width: 1150px) {
+  .futures-card br {
+    display: none;
+  }
+}
+
+@media (max-width: 1024px) {
+  .smart-wrapper-right {
+    display: block;
+  }
+
+  .bth-mobile {
+    display: none;
+  }
+
+  .payment-section-smart {
+    margin-top: 50px;
+  }
+
+  .smart-wrapper-p {
+    margin-bottom: 20px;
+  }
+
+  .amalfi-smart-wrapper .row {
+    justify-content: center;
+  }
+
+  .tablet-pic {
+    display: none;
+  }
+
+  .australian-homes-wrapper .row {
+    row-gap: 20px;
+  }
+
+  .australian-slider-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    gap: 10px;
+  }
+
+  .amalfi-standard-payment img {
+    display: none;
+  }
+
+  .payment-section {
+    display: block;
+    margin-top: 20px;
+  }
+
+  .amalfi-standard-payment h2 {
+    margin-bottom: 20px;
+    max-width: 440px;
+  }
+}
+
+@media (max-width: 767px) {
+  #features-favorite {
+    padding: 46px 0 74px;
+  }
+
+  #features-favorite h2 {
+    font-size: 32px;
+    max-width: 347;
+    margin-bottom: 39px;
+  }
+
+  .features-favorite-wrapper .row {
+    row-gap: 12px;
+  }
+
+  .futures-card h4 {
+    font-size: 20px;
+  }
+
+  .payment-section {
+    margin-top: 31px;
+  }
+
+  .bth-mobile {
+    display: block;
+    margin: 0 auto;
+  }
+
+  .amalfi-smart-wrapper .row .col-lg-8 {
+    display: none;
+  }
+
+  .payment-section-smart {
+    margin-top: 37px;
+  }
+
+  #amalfi-samrt-mirror h2 {
+    max-width: 344px;
+    font-size: 30px;
+    margin-bottom: 12px;
+  }
+
+  .smart-wrapper-p {
+    margin-bottom: 22px;
+  }
+
+  .smart-wrapper-right {
+    display: none;
+  }
+
+  .australian-text h2 {
+    font-size: 32px;
+  }
+
+  .australian-text p {
+    margin: 22px 0 14px;
+    max-width: 343px;
+  }
+
+  .australian-homes-slider {
+    margin-top: 31px;
+  }
+
+  .australian-slider-button {
+    margin-top: 34px;
+  }
+
+  #amalfi-samrt-mirror {
+    padding: 40px 0 40px;
+  }
+
+  #australian-homes {
+    padding: 40px 0 40px;
+  }
+
+  #premium-materials {
+    padding: 30px 0 83px;
+  }
+
+  .premium-pic-wrapper .row {
+    row-gap: 12px;
+  }
+
+  .premium-pic-card p {
+    margin-top: 12px;
+  }
+
+  #premium-materials h2 {
+    font-size: 30px;
+    max-width: 313px;
+    margin-bottom: 12px;
+  }
+
+  .premium-p-wrapper {
+    margin-bottom: 40px;
+  }
+
+  #amalfi-standard {
+    padding: 51px 0 54px;
+  }
+
+  .amalfi-standard-payment h2 {
+    margin-bottom: 27px;
+  }
+
+  .payment-section {
+    margin-top: 34px;
+  }
+
+  .amalfi-comparison-table thead th {
+    font-size: 12px;
+    padding: 16px 8px 14px 11px;
+  }
+
+  .amalfi-comparison-table tbody td {
+    font-size: 12px;
+  }
+
+  .amalfi-comparison-table tbody td:first-child {
+    font-size: 12px;
+  }
+
+  .amalfi-comparison-table {
+    margin-top: 0;
+  }
+
+  #amalfi-support {
+    padding: 34px 0 58px;
+  }
+
+  .support-text p {
+    max-width: 328px;
+    margin-bottom: 22px;
+  }
+
+  .support-bottom-p p {
+    font-size: 12px;
+    max-width: 264px;
+  }
+
+  .support-bottom-p {
+    padding: 15px 19px;
+    margin-top: 5px;
+  }
+
+  .order-support:last-of-type {
+    margin-bottom: 27px !important;
+  }
+
+  .order-pic {
+    max-width: 16px;
+    flex-basis: 16px;
+    margin-top: 3px;
+  }
+
+  .order-info {
+    flex: 1;
+  }
+}
